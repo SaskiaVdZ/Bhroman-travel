@@ -257,8 +257,17 @@ p {
 
 footer {
   display: flex;
-  background-image: url(/images/Rectangle\ 41444.png);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(/images/Rectangle\ 41443.png);
   background-repeat: no-repeat;
   height: 271px;
   width: 100%;
+}
+
+i {
+  height: 30px;
+  width: 30px;
+  color: #FFFFFF;
 }/*# sourceMappingURL=styles.css.map */
