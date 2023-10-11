@@ -68,6 +68,34 @@ button {
   border: none;
 }
 
+button:hover {
+  color: black;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: yellow;
+}
+
+li:active {
+  background-color: yellow;
+}
+
+li:hover {
+  color: black;
+  cursor: pointer;
+  background-color: #5474FD;
+}
+
+i:hover {
+  color: #5474FD;
+  cursor: pointer;
+}
+
+input:focus {
+  background-color: lightblue;
+}
+
 .search-box {
   display: flex;
   flex-direction: row;
@@ -291,11 +319,6 @@ i {
   }
 }
 @media (max-width: 320px) {
-  body {
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 10px;
-  }
   .header-title {
     font-family: "Josefin Sans", sans-serif;
     font-weight: 700;
