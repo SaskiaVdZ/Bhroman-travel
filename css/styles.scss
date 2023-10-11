@@ -264,6 +264,10 @@ p {
     line-height: $line-height-primary;
 }
 
+img {
+    margin: 10px;
+}
+
 .testimonials {
     display: flex;
     flex-wrap: wrap;
