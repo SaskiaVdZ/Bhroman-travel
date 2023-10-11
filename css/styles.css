@@ -2,6 +2,7 @@ body {
   margin: 0 auto;
   height: 100vh;
   width: 100%;
+  color: #FFFFFF;
 }
 
 header {
@@ -92,6 +93,16 @@ nav {
   justify-content: space-around;
 }
 
+.logo {
+  color: #FFFFFF;
+  font-size: 24px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 26px;
+  letter-spacing: 2.4px;
+}
+
 ul {
   display: flex;
   flex-direction: row;
@@ -105,4 +116,78 @@ li {
   font-family: "Aleo", serif;
   text-transform: uppercase;
   line-height: 26px;
+}
+
+.why-us {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-image: url(/images/Rectangle\ 41444.png);
+  background-repeat: no-repeat;
+  height: 685px;
+  width: 100%;
+}
+
+.why-us-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.heading-why-us {
+  font-size: 36px;
+  font-family: "Aleo", serif;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.paragraph-why-us {
+  color: #E8E8E8;
+  font-size: 16px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 1.6px;
+  width: 560px;
+  height: 158px;
+}
+
+.how-it-works {
+  display: flex;
+  background-image: url(/images/Rectangle\ 9.png);
+  background-repeat: no-repeat;
+  height: 340px;
+  width: 100%;
+}
+
+.destination-1 {
+  display: flex;
+  background-image: url(/images/Rectangle\ 414\ 45.png);
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%;
+}
+
+.destination-2 {
+  display: flex;
+  background-image: url(/images/Rectangle\ 41445.png);
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%;
+}
+
+.testimonials {
+  display: flex;
+  background-image: url(/images/Rectangle\ 4142\ 1.png);
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%;
+}
+
+footer {
+  display: flex;
+  background-image: url(/images/Rectangle\ 41444.png);
+  background-repeat: no-repeat;
+  height: 271px;
+  width: 100%;
 }/*# sourceMappingURL=styles.css.map */
