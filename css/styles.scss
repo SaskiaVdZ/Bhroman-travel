@@ -21,6 +21,70 @@ header {
     color: $primary-color;
 }
 
+.header-title {
+    font-family: $primary-font;
+    font-weight: $font-weight-heavy;
+    font-size: $font-size-xxl;
+    text-transform: uppercase;
+    letter-spacing: 4.80px;
+    line-height: $line-height-primary;
+}
+
+.header-subtitle{
+    font-family: $primary-font;
+    font-weight: $font-weight-medium;
+    font-size: $font-size-l;
+    letter-spacing: 6.82px;
+    line-height: $line-height-primary;
+}
+
+.search {
+    color: #999999;
+    font-family: $primary-font;
+    font-weight: $font-weight-medium;
+    font-size: $font-size-xs;
+    font-family: Josefin Sans;
+    line-height: $line-height-primary;
+    letter-spacing: 2.80px;
+}
+ input{
+    width:503px;
+    height: 63px;
+    text-align: center;
+    border: none;
+ }
+
+ .btn-search {
+    font-size: $font-size-xs;
+    font-family: $secondary-font;
+    font-weight: $font-weight-medium;
+    text-transform: uppercase;
+    line-height: $line-height-primary;
+    letter-spacing: 1.40px;
+    color: $primary-color;
+    background-color: #5474FD;
+    height: 63px;
+    width: 153px;
+    border: none;
+ }
+
+ .search-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+ }
+
+ .scroll-down {
+    font-size: $font-size-xs;
+    font-family: $primary-font;
+    font-weight: $font-weight-medium;
+    line-height: $line-height-primary;
+    letter-spacing: 2.80px;
+ }
+
+
+
 
 nav {
     display: flex;

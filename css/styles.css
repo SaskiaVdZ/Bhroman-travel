@@ -18,6 +18,69 @@ header {
   color: #FFFFFF;
 }
 
+.header-title {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 700;
+  font-size: 48px;
+  text-transform: uppercase;
+  letter-spacing: 4.8px;
+  line-height: 26px;
+}
+
+.header-subtitle {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  letter-spacing: 6.82px;
+  line-height: 26px;
+}
+
+.search {
+  color: #999999;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: Josefin Sans;
+  line-height: 26px;
+  letter-spacing: 2.8px;
+}
+
+input {
+  width: 503px;
+  height: 63px;
+  text-align: center;
+  border: none;
+}
+
+.btn-search {
+  font-size: 14px;
+  font-family: "Aleo", serif;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 26px;
+  letter-spacing: 1.4px;
+  color: #FFFFFF;
+  background-color: #5474FD;
+  height: 63px;
+  width: 153px;
+  border: none;
+}
+
+.search-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.scroll-down {
+  font-size: 14px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 2.8px;
+}
+
 nav {
   display: flex;
   flex-direction: row;
