@@ -134,16 +134,13 @@ li {
     width: 100%;
 }
 
-.why-us-left {
-
-}
 
 .why-us-right {
     display: flex;
     flex-direction: column;
 }
 
-.heading-why-us {
+h3 {
     font-size: 36px;
     font-family: $secondary-font;
     font-weight: 400;
@@ -247,10 +244,32 @@ p {
 
 .testimonials {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-image: url(/images/Rectangle\ 4142\ 1.png);
     background-repeat: no-repeat;
     height: 700px;
     width: 100%;
+}
+
+.image-text-holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width:1110px;
+}
+
+.img-testimonial {
+    height: 284px;
+    width: 445px;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.testimonials p {
+    width: 581px;
 }
 
 footer {
