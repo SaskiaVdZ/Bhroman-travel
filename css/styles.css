@@ -122,7 +122,7 @@ nav {
   flex-wrap: wrap;
   flex-direction: row;
   width: 100%;
-  background-image: url("/images/Rectangle 2.png");
+  background-image: url("/images/Rectangle2.png");
   justify-content: flex-end;
   justify-content: space-between;
   align-items: center;
@@ -162,7 +162,7 @@ li {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-image: url("/images/Rectangle 41444.png");
+  background-image: url("/images/Rectangle41444.png");
   background-repeat: no-repeat;
   height: 685px;
   width: 100%;
@@ -193,7 +193,7 @@ h3 {
 
 .how-it-works {
   display: flex;
-  background-image: url("/images/Rectangle 9.png");
+  background-image: url("/images/Rectangle9.png");
   background-repeat: no-repeat;
   height: 340px;
   width: 100%;
@@ -204,7 +204,7 @@ h3 {
   display: grid;
   grid-template-columns: repeat 6, 1fr;
   grid-template-rows: repeat 4, 1fr;
-  background-image: url("/images/Rectangle 414 45.png");
+  background-image: url("/images/Rectangle41445.png");
   background-repeat: no-repeat;
   height: 700px;
   width: 100%;
@@ -224,7 +224,7 @@ h3 {
   display: grid;
   grid-template-columns: repeat 6, 1fr;
   grid-template-rows: repeat 4, 1fr;
-  background-image: url("/images/Rectangle 41445.png");
+  background-image: url("/images/Rectangle_41445.png");
   background-repeat: no-repeat;
   height: 700px;
   width: 100%;
@@ -275,7 +275,7 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url("/images/Rectangle 4142 1.png");
+  background-image: url("/images/Rectangle41421.png");
   background-repeat: no-repeat;
   width: 100%;
 }
@@ -305,7 +305,7 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url("/images/Rectangle 41443.png");
+  background-image: url("/images/Rectangle41443.png");
   background-repeat: no-repeat;
   height: 271px;
   width: 100%;
